@@ -41,3 +41,7 @@ function myFunction3() { //definition of function
 }
 myFunction3();
 //let will not allow to redeclare the variable.
+
+
+const c = 10; //block scope
+//value of c cannot be changed or redeclared.
