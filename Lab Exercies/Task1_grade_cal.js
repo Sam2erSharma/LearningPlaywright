@@ -8,25 +8,36 @@ D: 60-69
 F: 0-59
 */
 //Using If Else
-let score = 59;
-if (score >= 90 && score <= 100) {
-    console.log("Grade : A");
+let grade;
+let score = "@";
+if (typeof score !== "number") {
+    console.log("Please enter a valid number.");
+}
+else if (score < 0 || score > 100) {
+    console.log("Please enter a valid score between 0 and 100.");
+}
+else if (score >= 90 && score <= 100) {
+    grade = "A";
+    console.log(`Score: ${score} and Grade: ${grade}.`);
 }
 else if (score >= 80 && score <= 89) {
-    console.log("Grade : B");
+    grade = "B";
+    console.log(`Score: ${score} and Grade: ${grade}.`);
 }
 else if (score >= 70 && score <= 79) {
-    console.log("Grade : C");
+    grade = "C";
+    console.log(`Score: ${score} and Grade: ${grade}.`);
 }
 else if (score >= 60 && score <= 69) {
-    console.log("Grade : D");
-}
-else if (score >= 0 && score <= 59) {
-    console.log("Grade : F");
+    grade = "D";
+    console.log(`Score: ${score} and Grade: ${grade}.`);
 }
 else {
-    console.log("Invalid Grade");
+    grade = "F";
+    console.log(`Score: ${score} and Grade: ${grade}.`);
 }
+
+
 
 //Using Switch Case
 /*let score = 29;
