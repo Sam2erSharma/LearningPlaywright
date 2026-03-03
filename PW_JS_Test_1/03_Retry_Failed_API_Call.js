@@ -5,3 +5,18 @@ output:
 Attempt 1: ❌ FAILED (Timeout/Error) 
 Attempt 2: ✅ SUCCESS (Response 200 OK) API call PASSED after 2 attempt(s).
 */
+let max_attempts = 5;
+let attempt = 1;
+let success = 0;
+let randomValue = Math.random();
+
+do {
+    if (randomValue > 0.6) {
+        success = 1;
+    }
+    console.log("Attempt " + attempt + ": " + (success ? "✅ SUCCESS (Response 200 OK)" : "❌ FAILED (Timeout/Error)"));
+    attempt++;
+} while (attempt <= max_attempts && success !== 1);
+
+
+
