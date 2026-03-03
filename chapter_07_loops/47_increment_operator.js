@@ -12,4 +12,6 @@ let x = 10, y = ++x;
 console.log(y); //11
 console.log(x); //11
 
-
+let a1 = 5; let b1 = a1++;
+console.log(a1, b1);
+//output: 6 5

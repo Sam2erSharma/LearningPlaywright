@@ -1,3 +1,9 @@
+if ('') { console.log('yes'); }
+else { console.log('no'); }
+//output: no
+//bydefault empty string is false.
+
+
 if ("true") console.log("Output is true");
 //output: Output is true
 //bydefault strings are true.

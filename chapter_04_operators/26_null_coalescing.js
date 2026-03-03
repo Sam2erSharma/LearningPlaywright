@@ -9,6 +9,8 @@ javascript
 let value = null ?? "default";
 console.log(value); // "default"
 
+console.log(0 ?? 'hello');
+
 let value2 = undefined ?? "fallback";
 console.log(value2); // "fallback"
 
