@@ -1,0 +1,23 @@
+{
+  "name": "learningplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sam2erSharma/LearningPlaywright.git"
+  },
+  "keywords": [],
+  "author": "Sameer Sharma",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sam2erSharma/LearningPlaywright/issues"
+  },
+  "homepage": "https://github.com/Sam2erSharma/LearningPlaywright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.3"
+  }
+}
