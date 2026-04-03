@@ -11,6 +11,10 @@ console.log(passed);//[ 82, 91, 73 ]
 //reduce - returns single value
 let total = score.reduce((sum, s) => sum + s, 0)
 console.log(total);//351
+//example of reduce
+let numbers = [1, 2, 3, 4, 5];
+let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log(sum);//15
 
 //flat - flattens the nested array
 //let nested = [[1, 2], [3, 4], [5]]
