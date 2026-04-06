@@ -31,7 +31,7 @@ for (let i = 1; i <= n; i++) {
 */
 console.log("\n");
 
-let x = 3;
+let x = 5;
 for (let i = x; i >= 1; i--) {
     let row = "";
     for (let j = 1; j <= (x - i); j++) {//number of spaces is determined by subtracting the current row number from the total number of rows.
