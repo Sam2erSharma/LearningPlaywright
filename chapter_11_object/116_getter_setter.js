@@ -1,3 +1,4 @@
+//Getter and Setter- used to get and set the value of a property
 const user = {
     firstName: "Sameer",
     lastName: "Sharma",

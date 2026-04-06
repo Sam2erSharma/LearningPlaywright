@@ -54,3 +54,4 @@ console.log(str.charCodeAt(10));//108
 console.log(str.charCodeAt(11));//100
 console.log(str.charCodeAt(12));//33
 console.log(str.charCodeAt(13));//NaN
+console.log(str.charCodeAt("A"));//65
