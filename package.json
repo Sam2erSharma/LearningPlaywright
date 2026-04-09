@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "Sameer Sharma",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Sam2erSharma/LearningPlaywright/issues"
   },
